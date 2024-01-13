@@ -27,7 +27,6 @@ public class VaccineRegistration {
     private HeathCenter heathCenter;
 
 
-
     private OffsetDateTime registrationDate;
 
 }

@@ -3,6 +3,7 @@ package br.com.bonnasys.vacinas.domain;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.time.OffsetDateTime;
 import java.time.OffsetTime;
@@ -14,6 +15,8 @@ import java.util.Map;
 @Table(name = "healthcenter")
 public class HeathCenter {
     @Id
+    @Column(length = 36)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     private String address;

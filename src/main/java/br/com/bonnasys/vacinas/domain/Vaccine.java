@@ -15,6 +15,8 @@ import java.util.Map;
 
 public class Vaccine {
     @Id
+    @Column(length = 36)
+    @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String name;
     private String producer;
