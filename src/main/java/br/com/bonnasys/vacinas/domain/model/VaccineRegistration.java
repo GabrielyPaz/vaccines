@@ -1,4 +1,4 @@
-package br.com.bonnasys.vacinas.domain;
+package br.com.bonnasys.vacinas.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

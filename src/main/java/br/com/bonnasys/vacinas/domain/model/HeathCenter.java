@@ -1,9 +1,8 @@
-package br.com.bonnasys.vacinas.domain;
+package br.com.bonnasys.vacinas.domain.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import org.springframework.boot.autoconfigure.web.WebProperties;
 
 import java.time.OffsetDateTime;
 import java.time.OffsetTime;
@@ -12,7 +11,7 @@ import java.util.Map;
 @Getter
 @Setter
 @Entity
-@Table(name = "healthcenter")
+@Table(name = "health_center")
 public class HeathCenter {
     @Id
     @Column(length = 36)
