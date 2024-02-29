@@ -12,7 +12,7 @@ import java.util.Map;
 @Setter
 @Entity
 @Table(name = "health_center")
-public class HeathCenter {
+public class HealthCenter {
     @Id
     @Column(length = 36)
     @GeneratedValue(strategy = GenerationType.UUID)

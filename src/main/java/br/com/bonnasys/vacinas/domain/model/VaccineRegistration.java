@@ -24,7 +24,7 @@ public class VaccineRegistration {
 
     @ManyToOne
     @JoinColumn(name = "health_center_id", foreignKey = @ForeignKey(name= "fk_vr_health_center_id"))
-    private HeathCenter heathCenter;
+    private HealthCenter healthCenter;
 
 
     private OffsetDateTime registrationDate;
