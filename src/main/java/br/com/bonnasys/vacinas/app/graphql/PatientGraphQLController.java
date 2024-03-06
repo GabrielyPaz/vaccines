@@ -1,15 +1,16 @@
 package br.com.bonnasys.vacinas.app.graphql;
 
-import br.bonnasys.vaccines.app.dto.response.PageResponse;
-import br.bonnasys.vaccines.app.dto.response.PaginationResponse;
-import br.bonnasys.vaccines.app.dto.response.PatientResponse;
-import br.bonnasys.vaccines.app.dto.response.VaccineRegistrationResponse;
-import br.bonnasys.vaccines.app.mapper.PatientMapper;
-import br.bonnasys.vaccines.domain.model.Patient;
-import br.bonnasys.vaccines.domain.usecase.patient.retrieve.get.GetPatientByIdUseCase;
-import br.bonnasys.vaccines.domain.usecase.patient.retrieve.search.SearchPatientCommand;
-import br.bonnasys.vaccines.domain.usecase.patient.retrieve.search.SearchPatientUseCase;
-import br.bonnasys.vaccines.domain.usecase.patient.retrieve.search.history.SearchPatientHistoryUseCase;
+
+import br.com.bonnasys.vacinas.app.dto.response.PageResponse;
+import br.com.bonnasys.vacinas.app.dto.response.PaginationResponse;
+import br.com.bonnasys.vacinas.app.dto.response.PatientResponse;
+import br.com.bonnasys.vacinas.app.dto.response.VaccineRegistrationResponse;
+import br.com.bonnasys.vacinas.app.mapper.PatientMapper;
+import br.com.bonnasys.vacinas.domain.model.Patient;
+import br.com.bonnasys.vacinas.domain.usecase.patient.retrieve.get.GetPatientByIdUseCase;
+import br.com.bonnasys.vacinas.domain.usecase.patient.retrieve.search.SearchPatientCommand;
+import br.com.bonnasys.vacinas.domain.usecase.patient.retrieve.search.SearchPatientUseCase;
+import br.com.bonnasys.vacinas.domain.usecase.patient.retrieve.search.history.SearchPatientHistoryUseCase;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;

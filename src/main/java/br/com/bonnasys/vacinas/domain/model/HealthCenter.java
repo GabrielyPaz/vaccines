@@ -29,7 +29,7 @@ public class HealthCenter {
     @Column(name = "amount")
     private Map<Vaccine, Integer> stock;
 
-    private OffsetTime createdAt;
+    private OffsetDateTime createdAt;
     private OffsetDateTime updatedAt;
 
 }

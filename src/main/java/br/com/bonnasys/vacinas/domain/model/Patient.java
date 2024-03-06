@@ -22,7 +22,7 @@ public class Patient {
     private String phone;
     private String email;
     private LocalDate birthdate;
-    private OffsetTime createdAt;
+    private OffsetDateTime createdAt;
     private OffsetDateTime updatedAt;
 
     @OneToMany

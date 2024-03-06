@@ -20,7 +20,7 @@ public class Vaccine {
     private String id;
     private String name;
     private String producer;
-    private OffsetTime createdAt;
+    private OffsetDateTime createdAt;
     private OffsetDateTime updatedAt;
 
 
