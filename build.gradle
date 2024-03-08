@@ -45,6 +45,7 @@ dependencies {
     testImplementation 'com.h2database:h2:2.2.224'
     testImplementation 'org.springframework:spring-webflux'
     testImplementation 'org.springframework.graphql:spring-graphql-test'
+    testImplementation 'org.testcontainers:rabbitmq'
 }
 
 tasks.named('test') {

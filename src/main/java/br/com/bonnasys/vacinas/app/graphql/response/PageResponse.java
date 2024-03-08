@@ -1,4 +1,4 @@
-package br.com.bonnasys.vacinas.app.dto.response;
+package br.com.bonnasys.vacinas.app.graphql.response;
 
 public record PageResponse (Integer pageNumber,
                             Integer pageSize,

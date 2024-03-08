@@ -1,10 +1,10 @@
 package br.com.bonnasys.vacinas.app.graphql;
 
 
-import br.com.bonnasys.vacinas.app.dto.response.PageResponse;
-import br.com.bonnasys.vacinas.app.dto.response.PaginationResponse;
-import br.com.bonnasys.vacinas.app.dto.response.PatientResponse;
-import br.com.bonnasys.vacinas.app.dto.response.VaccineRegistrationResponse;
+import br.com.bonnasys.vacinas.app.graphql.response.PageResponse;
+import br.com.bonnasys.vacinas.app.graphql.response.PaginationResponse;
+import br.com.bonnasys.vacinas.app.graphql.response.PatientResponse;
+import br.com.bonnasys.vacinas.app.graphql.response.VaccineRegistrationResponse;
 import br.com.bonnasys.vacinas.app.mapper.PatientMapper;
 import br.com.bonnasys.vacinas.domain.model.Patient;
 import br.com.bonnasys.vacinas.domain.usecase.patient.retrieve.get.GetPatientByIdUseCase;
